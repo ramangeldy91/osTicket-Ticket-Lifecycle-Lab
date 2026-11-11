@@ -184,19 +184,25 @@ This workflow was demonstrated in a local osTicket lab using synthetic requester
 
 
 
-The demonstration included:
+The practical demonstration included:
 
 
 
-\- Software installation request registration.
+\- Software installation request registration through the osTicket staff panel.
 
-\- L1 initial response.
+\- L1 initial response requesting confirmation of manager approval and business justification.
 
-\- Internal assessment note.
+\- Internal assessment note documenting outstanding approval and license verification.
 
-\- Documentation of outstanding manager approval and license verification.
+\- Retention of the ticket in Open status while verification remains pending.
 
-\- Retention of the Open ticket status while verification remains pending.
+
+
+The ticket's Source field was set to Email, but no actual incoming email was received or processed.
+
+
+
+No requester response to the L1 clarification questions was recorded during the demonstration.
 
 
 

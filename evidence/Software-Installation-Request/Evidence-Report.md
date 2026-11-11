@@ -6,11 +6,11 @@
 
 
 
-This scenario demonstrates the Level I Service Desk handling of a software installation request.
+This scenario demonstrates Level I Service Desk handling of a software installation request.
 
 
 
-A user requested Microsoft Visio to create and edit process flowcharts and diagrams. The request required further verification of software licensing and manager approval before installation could proceed.
+A simulated user requested Microsoft Visio to create and edit process flowcharts and diagrams. The request required further verification of software licensing and manager approval before installation could proceed.
 
 
 
@@ -28,7 +28,7 @@ A user requested Microsoft Visio to create and edit process flowcharts and diagr
 
 | Email | sarah.johnson@example.com |
 
-| Subject | Software Installation Request – Microsoft Visio |
+| Subject | Software Installation Request - Microsoft Visio |
 
 | Priority | Normal |
 
@@ -42,7 +42,7 @@ A user requested Microsoft Visio to create and edit process flowcharts and diagr
 
 | SLA Plan | Standard SLA |
 
-| Source | Email |
+| Source Field | Email |
 
 
 
@@ -50,13 +50,15 @@ A user requested Microsoft Visio to create and edit process flowcharts and diagr
 
 
 
-\### Step 1 – Ticket Creation
+\### Step 1 - Ticket Registration
 
-\- Created a software installation request on behalf of a simulated user.
+
+
+\- Created a software installation request through the osTicket staff panel.
 
 \- Recorded the requested application: Microsoft Visio.
 
-\- Documented the business justification provided by the requester.
+\- Documented the business justification provided in the simulated request.
 
 \- Set priority to Normal.
 
@@ -67,6 +69,8 @@ A user requested Microsoft Visio to create and edit process flowcharts and diagr
 
 
 \### Step 2 - Level I Initial Response
+
+
 
 \- Acknowledged the request.
 
@@ -79,6 +83,8 @@ A user requested Microsoft Visio to create and edit process flowcharts and diagr
 
 
 \### Step 3 - Internal Assessment
+
+
 
 \- Added an internal note documenting the request assessment.
 
@@ -94,6 +100,8 @@ A user requested Microsoft Visio to create and edit process flowcharts and diagr
 
 \### Step 4 - Pending Verification
 
+
+
 \- Kept the ticket Open because required information and verification were still outstanding.
 
 \- Retained the ticket assignment with Level I Support.
@@ -101,6 +109,8 @@ A user requested Microsoft Visio to create and edit process flowcharts and diagr
 \- Did not mark the request as Resolved or Closed.
 
 \- Did not claim that a license was available or that approval had been granted.
+
+\- No requester response to the L1 clarification questions was recorded during the demonstration.
 
 
 
@@ -122,15 +132,19 @@ A user requested Microsoft Visio to create and edit process flowcharts and diagr
 
 
 
-The request was correctly registered and assessed by Level I Support.
+The request was registered and assessed by Level I Support.
 
 
 
 The ticket remains Open pending:
 
+
+
 \- Manager approval confirmation.
 
 \- Software license availability verification.
+
+\- Requester confirmation of the business requirement.
 
 
 
@@ -138,7 +152,7 @@ No installation was performed.
 
 
 
-This demonstrates appropriate request handling and the importance of verifying authorization and licensing before software deployment.
+This demonstrates appropriate service request handling and the importance of verifying authorization and licensing before software deployment.
 
 
 
@@ -169,6 +183,10 @@ The final ticket state was verified in the osTicket staff panel.
 
 
 This scenario was performed in a local, single-host osTicket lab environment.
+
+
+
+The ticket was created through the staff panel. The Source field was set to Email, but no actual incoming email was received or processed.
 
 
 

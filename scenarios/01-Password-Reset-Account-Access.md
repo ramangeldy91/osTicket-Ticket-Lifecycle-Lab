@@ -174,11 +174,11 @@ This workflow was demonstrated in a local osTicket lab using synthetic requester
 
 
 
-The demonstration included:
+The practical demonstration included:
 
 
 
-\- Ticket creation and prioritization.
+\- Ticket creation and prioritization through the osTicket staff panel.
 
 \- Initial L1 response.
 
@@ -186,9 +186,13 @@ The demonstration included:
 
 \- Manual assignment to Level II Support.
 
-\- L2 response.
+\- L2 follow-up response.
 
-\- Ticket resolution.
+\- Ticket resolution and final state validation.
+
+
+
+The ticket's Source field was set to Email, but no actual incoming email was received or processed.
 
 
 
@@ -196,5 +200,5 @@ The lab used a single agent account with access to separate support departments 
 
 
 
-The demonstration validates ticket lifecycle handling and documentation. It does not demonstrate an actual password reset against an identity provider or production directory service.
+The demonstration validates ticket lifecycle handling, escalation, and documentation only. No actual identity verification, password reset, credential change, or account modification was performed. No production identity provider or directory service was involved.
 

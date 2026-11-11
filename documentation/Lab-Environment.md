@@ -88,7 +88,7 @@ The environment includes:
 
 
 
-A single staff account is used to demonstrate both Level I and Level II activities. Department transfers and agent assignments are performed manually where required.
+A single staff account is used to demonstrate both Level I and Level II activities. Department transfers and agent reassignment are performed manually as separate actions. This demonstrates workflow configuration and ticket handling, not a multi-agent support operation.
 
 
 
@@ -96,7 +96,7 @@ A single staff account is used to demonstrate both Level I and Level II activiti
 
 
 
-The lab currently demonstrates two ticket scenarios:
+The lab demonstrates two ticket scenarios.
 
 
 
@@ -104,7 +104,7 @@ The lab currently demonstrates two ticket scenarios:
 
 
 
-\- Ticket registration.
+\- Ticket registration and prioritization.
 
 \- Initial Level I response.
 
@@ -112,9 +112,13 @@ The lab currently demonstrates two ticket scenarios:
 
 \- Manual reassignment to Level II Support.
 
-\- Level II response.
+\- Level II follow-up response.
 
-\- Ticket resolution.
+\- Ticket resolution and final state validation.
+
+
+
+This scenario demonstrates ticket handling and escalation only. No actual identity verification, password reset, credential change, or account modification was performed.
 
 
 
@@ -128,9 +132,13 @@ The lab currently demonstrates two ticket scenarios:
 
 \- Internal assessment note.
 
-\- Documentation of outstanding approval and license verification.
+\- Documentation of outstanding manager approval and license verification.
 
 \- Ticket retained in Open status pending further verification.
+
+
+
+No software installation was performed.
 
 
 
@@ -150,7 +158,7 @@ Each scenario contains:
 
 \- An Evidence Report describing the workflow.
 
-\- Validation results and known limitations.
+\- Final state validation and known limitations.
 
 
 
@@ -172,7 +180,9 @@ The following limitations apply:
 
 \- Only one staff account is used to demonstrate L1 and L2 activities.
 
-\- SMTP is not configured; ticket notifications are not delivered through external email.
+\- SMTP is not configured; external email delivery and ticket notifications are unavailable.
+
+\- Tickets were created through the staff panel. The Source field was set to Email, but no actual incoming email was received or processed.
 
 \- No external identity provider or Active Directory integration is configured.
 
@@ -214,9 +224,9 @@ The objective is to demonstrate practical understanding of:
 
 \- Incident and service request handling.
 
-\- L1 troubleshooting and escalation.
+\- Level I support workflows and escalation procedures.
 
-\- Department and agent assignment.
+\- Department transfer and manual agent reassignment.
 
 \- SLA awareness.
 

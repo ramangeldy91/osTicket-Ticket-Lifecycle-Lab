@@ -10,11 +10,11 @@ This project demonstrates practical Service Desk ticket lifecycle management usi
 
 
 
-The lab focuses on realistic Level I support workflows, ticket documentation, internal communication, SLA awareness, and escalation procedures.
+The lab focuses on Level I support workflows, ticket documentation, user communication, internal notes, SLA awareness, and escalation procedures.
 
 
 
-It includes two practical scenarios based on synthetic support requests.
+It includes two practical scenarios based on synthetic support requests, with documented actions, screenshots, and validation reports.
 
 
 
@@ -28,9 +28,9 @@ It includes two practical scenarios based on synthetic support requests.
 
 \- Understand ticket priorities, Help Topics, and SLA assignment.
 
-\- Demonstrate department transfers and agent reassignment.
+\- Demonstrate department transfers and manual agent reassignment.
 
-\- Apply appropriate escalation and resolution procedures.
+\- Apply appropriate escalation and ticket resolution procedures.
 
 \- Document actions, outcomes, and operational limitations.
 
@@ -70,7 +70,7 @@ See \[Lab Environment](documentation/Lab-Environment.md) for configuration detai
 
 
 
-\*\*Scenario type:\*\* Incident / Account Access Request
+\*\*Scenario type:\*\* Account Access Incident вЂ“ Ticket Handling Demonstration
 
 
 
@@ -86,9 +86,13 @@ Demonstrated workflow:
 
 \- Manual reassignment to Level II Support.
 
-\- Level II response.
+\- Level II follow-up response.
 
-\- Ticket resolution.
+\- Ticket resolution and final state validation.
+
+
+
+The scenario demonstrates ticket handling and escalation. No actual identity verification, password reset, credential change, or account modification was performed.
 
 
 
@@ -96,7 +100,7 @@ Evidence: \[Password Reset / Account Access](evidence/Password-Reset-Account-Acc
 
 
 
-Workflow documentation: \[01 – Password Reset / Account Access](scenarios/01-Password-Reset-Account-Access.md)
+Workflow documentation: \[01 вЂ“ Password Reset / Account Access](scenarios/01-Password-Reset-Account-Access.md)
 
 
 
@@ -124,7 +128,7 @@ Demonstrated workflow:
 
 
 
-No installation was performed because the lab does not include a real license inventory or approval system.
+No installation was performed because the lab does not include a real license inventory, manager approval system, or endpoint deployment integration.
 
 
 
@@ -132,7 +136,7 @@ Evidence: \[Software Installation Request](evidence/Software-Installation-Reques
 
 
 
-Workflow documentation: \[02 – Software Installation Request](scenarios/02-Software-Installation-Request.md)
+Workflow documentation: \[02 вЂ“ Software Installation Request](scenarios/02-Software-Installation-Request.md)
 
 
 
@@ -144,19 +148,19 @@ Workflow documentation: \[02 – Software Installation Request](scenarios/02-Sof
 
 \- Incident and service request handling.
 
-\- L1 troubleshooting and escalation awareness.
-
 \- Ticket prioritization and SLA awareness.
 
-\- Department and agent assignment.
+\- Department transfer and manual agent reassignment.
 
 \- User communication and internal documentation.
 
-\- Ticket status management.
+\- Ticket status and lifecycle management.
+
+\- Escalation awareness and workflow documentation.
 
 \- Evidence collection and technical reporting.
 
-\- Security and software licensing awareness.
+\- Software approval and licensing awareness.
 
 
 
@@ -194,11 +198,13 @@ Each practical scenario includes screenshots and an Evidence Report documenting:
 
 \- Ticket details and relevant configuration.
 
-\- Actions performed.
+\- Actions actually performed.
 
 \- Workflow outcome.
 
-\- Validation and known limitations.
+\- Final ticket state and validation.
+
+\- Known environment limitations.
 
 
 
@@ -218,15 +224,17 @@ This is a personal local lab, not a production Service Desk environment.
 
 \- SMTP and external email delivery are not configured.
 
+\- Tickets were created through the staff panel. The Source field was set to Email, but no actual incoming email was received or processed.
+
+\- Department transfers and agent reassignment are performed manually.
+
 \- No external identity provider integration is configured.
 
 \- No real software license inventory or manager approval system is connected.
 
 \- No endpoint software deployment integration is available.
 
-
-
-Department transfers and agent reassignment are performed manually where required.
+\- No actual password reset or identity verification was performed in the account access scenario.
 
 
 
@@ -242,37 +250,45 @@ These limitations are documented to distinguish demonstrated actions from functi
 
 osTicket-Ticket-Lifecycle-Lab/
 
-│
+в”‚
 
-├── documentation/
+в”њв”Ђв”Ђ documentation/
 
-│   └── Lab-Environment.md
+в”‚   в””в”Ђв”Ђ Lab-Environment.md
 
-│
+в”‚
 
-├── scenarios/
+в”њв”Ђв”Ђ scenarios/
 
-│   ├── 01-Password-Reset-Account-Access.md
+в”‚   в”њв”Ђв”Ђ 01-Password-Reset-Account-Access.md
 
-│   └── 02-Software-Installation-Request.md
+в”‚   в””в”Ђв”Ђ 02-Software-Installation-Request.md
 
-│
+в”‚
 
-└── evidence/
+в””в”Ђв”Ђ evidence/
 
-&#x20;   ├── Password-Reset-Account-Access/
+    в”њв”Ђв”Ђ Password-Reset-Account-Access/
 
-&#x20;   │   ├── screenshots
+    в”‚   в”њв”Ђв”Ђ 01 Ticket-Overview.png
 
-&#x20;   │   └── Evidence-Report.md
+    в”‚   в”њв”Ђв”Ђ 02 L1-Response.png
 
-&#x20;   │
+    в”‚   в”њв”Ђв”Ђ 03 L1-to-L2 Transfer - L2 Assignment - L2 Response.png
 
-&#x20;   └── Software-Installation-Request/
+    в”‚   в”њв”Ђв”Ђ 04 Ticket-Resolved.png
 
-&#x20;       ├── screenshots
+    в”‚   в””в”Ђв”Ђ Evidence-Report.md
 
-&#x20;       └── Evidence-Report.md
+    в”‚
+
+    в””в”Ђв”Ђ Software-Installation-Request/
+
+        в”њв”Ђв”Ђ 01-L1-Initial-Response.png
+
+        в”њв”Ђв”Ђ 02-L1-Internal-Note.png
+
+        в””в”Ђв”Ђ Evidence-Report.md
 
 ```
 
@@ -282,5 +298,8 @@ osTicket-Ticket-Lifecycle-Lab/
 
 
 
-The two practical ticket scenarios have been completed and documented. The repository is being prepared for final validation and publication.
+The two practical ticket-handling scenarios have been completed, documented, and published.
 
+
+
+The repository includes workflow documentation, screenshots, and Evidence Reports. All demonstrations were performed in a local single-host lab environment.
