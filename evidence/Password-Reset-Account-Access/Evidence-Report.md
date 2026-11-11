@@ -6,11 +6,15 @@
 
 
 
-This scenario demonstrates an end-to-end IT Service Desk workflow for a user who cannot access their account and requests password reset assistance.
+This scenario demonstrates a Service Desk ticket handling workflow for a simulated user account access issue.
 
 
 
 The ticket was initially handled by Level I Support and subsequently transferred to Level II Support for further handling.
+
+
+
+The demonstration focuses on ticket management, user communication, escalation, and status tracking. It does not demonstrate an actual password reset or account modification.
 
 
 
@@ -46,17 +50,21 @@ The ticket was initially handled by Level I Support and subsequently transferred
 
 | Final Assignment | Level II Support |
 
+| Source Field | Email |
+
 
 
 \## 3. Workflow Performed
 
 
 
-\### Step 1 - Ticket Creation
+\### Step 1 - Ticket Registration
 
-\- Created a ticket for a simulated account access issue.
 
-\- Recorded the requester's information and problem description.
+
+\- Created a ticket for a simulated account access issue through the osTicket staff panel.
+
+\- Recorded the synthetic requester's information and problem description.
 
 \- Set priority to High.
 
@@ -68,6 +76,8 @@ The ticket was initially handled by Level I Support and subsequently transferred
 
 \### Step 2 - Level I Initial Response
 
+
+
 \- Reviewed the reported account access problem.
 
 \- Posted an initial response to the requester.
@@ -78,29 +88,35 @@ The ticket was initially handled by Level I Support and subsequently transferred
 
 \### Step 3 - Escalation to Level II
 
+
+
 \- Transferred the ticket from Support to IT Support L2.
 
 \- Manually changed the Assigned To field to Level II Support.
 
-\- Verified the updated department and assignment.
+\- Verified the updated department and agent assignment.
 
 
 
 \### Step 4 - Level II Response
 
-\- Posted a response as part of the Level II handling process.
 
-\- Documented the follow-up communication in the ticket thread.
+
+\- Posted a follow-up response as part of the Level II handling demonstration.
+
+\- Documented the communication in the ticket thread.
 
 
 
 \### Step 5 - Resolution
 
+
+
 \- Changed the ticket status to Resolved.
 
-\- Added a resolution note explaining that the account access request had been reviewed and handling instructions had been provided.
+\- Added a resolution note stating that the account access request had been reviewed and handling instructions had been provided.
 
-\- Verified the final ticket status and department.
+\- Verified the final ticket status, department, and assignment.
 
 
 
@@ -112,13 +128,13 @@ The ticket was initially handled by Level I Support and subsequently transferred
 
 |---|---|
 
-| 01 Ticket-Created.png | Initial ticket details and configuration |
+| 01 Ticket-Overview.png | Ticket overview showing its configuration and current assignment |
 
 | 02 L1-Response.png | Level I initial response |
 
-| 03 L1-to-L2 Transfer - L2 Assignment.png | Department transfer and manual Level II assignment |
+| 03 L1-to-L2 Transfer - L2 Assignment - L2 Response.png | Department transfer, manual Level II assignment, and follow-up response |
 
-| 04 Ticket-Resolved.png | Final ticket status and resolution |
+| 04 Ticket-Resolved.png | Final ticket status and resolution information |
 
 
 
@@ -126,11 +142,13 @@ The ticket was initially handled by Level I Support and subsequently transferred
 
 
 
-The ticket lifecycle was completed successfully.
+The ticket handling workflow was completed successfully in the local osTicket environment.
 
 
 
-The scenario demonstrates:
+The demonstration covers:
+
+
 
 \- Ticket registration and categorization.
 
@@ -142,7 +160,11 @@ The scenario demonstrates:
 
 \- Level II follow-up communication.
 
-\- Ticket resolution and status validation.
+\- Ticket resolution and final state validation.
+
+
+
+The ticket was marked Resolved after the support handling demonstration. However, no actual password reset, credential change, or account modification was performed.
 
 
 
@@ -172,7 +194,7 @@ This scenario was performed in a local, single-host osTicket lab environment.
 
 
 
-Both Level I and Level II workflows were demonstrated using one agent account with access to separate support departments and teams.
+Both Level I and Level II activities were demonstrated using one agent account with access to separate support departments and teams.
 
 
 
@@ -180,9 +202,17 @@ The department transfer and agent reassignment were performed as separate manual
 
 
 
+The ticket was created through the staff panel. The Source field was set to Email, but no actual incoming email was received or processed.
+
+
+
 The requester and ticket data are synthetic and were created for demonstration purposes.
 
 
 
-No external email delivery or production identity management integration was configured.
+No external email delivery, production identity provider, or password management integration was configured.
+
+
+
+No actual identity verification or password reset was performed as part of this demonstration.
 
