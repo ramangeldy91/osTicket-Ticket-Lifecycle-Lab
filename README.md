@@ -41,19 +41,12 @@ It includes two practical scenarios based on synthetic support requests, with do
 
 
 | Component | Configuration |
-
 |---|---|
-
 | Operating System | Windows 11 Pro Education |
-
 | Web Server | Apache (XAMPP) |
-
 | Database | MySQL |
-
 | PHP | 8.3.36 |
-
 | Ticketing Platform | osTicket 1.18.4 |
-
 | Deployment | Local, single-host lab |
 
 
@@ -66,11 +59,11 @@ See \[Lab Environment](documentation/Lab-Environment.md) for configuration detai
 
 
 
-\### 01 - Password Reset / Account Access
+\### 01 - Account Access Request (Ticket Handling and Escalation)
 
 
 
-\*\*Scenario type:\*\* Account Access Incident вЂ“ Ticket Handling Demonstration
+\*\*Scenario type:\*\* Account Access Incident - Ticket Handling Demonstration
 
 
 
@@ -96,11 +89,11 @@ The scenario demonstrates ticket handling and escalation. No actual identity ver
 
 
 
-Evidence: \[Password Reset / Account Access](evidence/Password-Reset-Account-Access/)
+Evidence: \[Account Access Request Evidence](evidence/Password-Reset-Account-Access/)
 
 
 
-Workflow documentation: \[01 вЂ“ Password Reset / Account Access](scenarios/01-Password-Reset-Account-Access.md)
+Workflow documentation: \[01 - Account Access Request (Ticket Handling and Escalation)](scenarios/01-Password-Reset-Account-Access.md)
 
 
 
@@ -136,7 +129,7 @@ Evidence: \[Software Installation Request](evidence/Software-Installation-Reques
 
 
 
-Workflow documentation: \[02 вЂ“ Software Installation Request](scenarios/02-Software-Installation-Request.md)
+Workflow documentation: \[02 - Software Installation Request](scenarios/02-Software-Installation-Request.md)
 
 
 
@@ -242,59 +235,30 @@ These limitations are documented to distinguish demonstrated actions from functi
 
 
 
-\## Repository Structure
-
-
+## Repository Structure
 
 ```text
-
 osTicket-Ticket-Lifecycle-Lab/
-
-в”‚
-
-в”њв”Ђв”Ђ documentation/
-
-в”‚   в””в”Ђв”Ђ Lab-Environment.md
-
-в”‚
-
-в”њв”Ђв”Ђ scenarios/
-
-в”‚   в”њв”Ђв”Ђ 01-Password-Reset-Account-Access.md
-
-в”‚   в””в”Ђв”Ђ 02-Software-Installation-Request.md
-
-в”‚
-
-в””в”Ђв”Ђ evidence/
-
-    в”њв”Ђв”Ђ Password-Reset-Account-Access/
-
-    в”‚   в”њв”Ђв”Ђ 01 Ticket-Overview.png
-
-    в”‚   в”њв”Ђв”Ђ 02 L1-Response.png
-
-    в”‚   в”њв”Ђв”Ђ 03 L1-to-L2 Transfer - L2 Assignment - L2 Response.png
-
-    в”‚   в”њв”Ђв”Ђ 04 Ticket-Resolved.png
-
-    в”‚   в””в”Ђв”Ђ Evidence-Report.md
-
-    в”‚
-
-    в””в”Ђв”Ђ Software-Installation-Request/
-
-        в”њв”Ђв”Ђ 01-L1-Initial-Response.png
-
-        в”њв”Ђв”Ђ 02-L1-Internal-Note.png
-
-        в””в”Ђв”Ђ Evidence-Report.md
-
+|-- README.md
+|-- documentation/
+|   +-- Lab-Environment.md
+|-- evidence/
+|   |-- Password-Reset-Account-Access/
+|   |   |-- 01 Ticket-Overview.png
+|   |   |-- 02 L1-Response.png
+|   |   |-- 03 L1-to-L2 Transfer - L2 Assignment - L2 Response.png
+|   |   |-- 04 Ticket-Resolved.png
+|   |   +-- Evidence-Report.md
+|   +-- Software-Installation-Request/
+|       |-- 01-L1-Initial-Response.png
+|       |-- 02-L1-Internal-Note.png
+|       +-- Evidence-Report.md
++-- scenarios/
+    |-- 01-Password-Reset-Account-Access.md
+    +-- 02-Software-Installation-Request.md
 ```
 
-
-
-\## Project Status
+## Project Status
 
 
 
