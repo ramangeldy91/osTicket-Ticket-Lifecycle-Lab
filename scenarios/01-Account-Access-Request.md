@@ -1,6 +1,4 @@
-\# Password Reset / Account Access - Ticket Workflow
-
-
+\# Account Access Request - Ticket Workflow
 
 \## 1. Purpose
 
@@ -174,6 +172,40 @@ This workflow was demonstrated in a local osTicket lab using synthetic requester
 
 
 
+\### Actual Ticket Configuration
+
+
+
+| Field | Value |
+
+|---|---|
+
+| Ticket ID | #982382 |
+
+| Requester | Alex Morgan |
+
+| Priority | High |
+
+| Help Topic | Report a Problem / Access Issue |
+
+| Initial Department | Support |
+
+| Initial Team | Level I Support |
+
+| SLA Plan | High Priority SLA (4-hour grace period) |
+
+| Final Department | IT Support L2 |
+
+| Final Team | Level II Support |
+
+| Final Status | Resolved |
+
+
+
+High priority was selected for the simulated account access issue. No formal business impact and urgency matrix was configured in the lab.
+
+
+
 The practical demonstration included:
 
 
@@ -189,6 +221,62 @@ The practical demonstration included:
 \- L2 follow-up response.
 
 \- Ticket resolution and final state validation.
+
+
+
+\### Recorded Support Responses
+
+
+
+\*\*Level I Initial Response:\*\*
+
+
+
+> Hello Alex,
+
+>
+
+> Thank you for contacting IT Support.
+
+> We have received your password reset request and are currently investigating the account access issue.
+
+> We will provide an update once the initial checks are complete.
+
+>
+
+> Best regards,
+
+> Rauan
+
+> IT Support - Level I
+
+
+
+\*\*Level II Follow-up Response:\*\*
+
+
+
+> Hello Alex,
+
+>
+
+> Your request has been escalated to our Level II Support team.
+
+> We have reviewed the account access issue and are proceeding with the next troubleshooting steps.
+
+>
+
+> Best regards.
+
+> Level II Support Team
+
+
+
+\*\*Final Resolution Note:\*\*
+
+
+
+> Account access request reviewed and handled by Level II Support. Resolution instructions provided to the user.
 
 
 
