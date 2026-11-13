@@ -32,7 +32,7 @@ The demonstration focuses on ticket management, user communication, escalation, 
 
 | Email | alex.morgan@example.com |
 
-| Subject | Unable to access account – password reset request |
+| Subject | Unable to access account - password reset request |
 
 | Priority | High |
 
@@ -128,13 +128,13 @@ The demonstration focuses on ticket management, user communication, escalation, 
 
 |---|---|
 
-| 01 Ticket-Overview.png | Ticket overview showing its configuration and current assignment |
+| 01-Ticket-Overview.png | Ticket overview showing its configuration and current assignment |
 
-| 02 L1-Response.png | Level I initial response |
+| 02-L1-Response.png | Level I initial response |
 
-| 03 L1-to-L2 Transfer - L2 Assignment - L2 Response.png | Department transfer, manual Level II assignment, and follow-up response |
+| 03-L1-to-L2-Transfer-and-Response.png | Department transfer, manual Level II assignment, and follow-up response |
 
-| 04 Ticket-Resolved.png | Final ticket status and resolution information |
+| 04-Ticket-Resolved.png | Final ticket status and resolution information |
 
 
 

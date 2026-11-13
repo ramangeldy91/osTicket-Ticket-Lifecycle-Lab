@@ -51,7 +51,7 @@ It includes two practical scenarios based on synthetic support requests, with do
 
 
 
-See \[Lab Environment](documentation/Lab-Environment.md) for configuration details and limitations.
+See [Lab Environment](documentation/Lab-Environment.md) for configuration details and limitations.
 
 
 
@@ -89,11 +89,16 @@ The scenario demonstrates ticket handling and escalation. No actual identity ver
 
 
 
-Evidence: \[Account Access Request Evidence](evidence/Password-Reset-Account-Access/)
+Evidence: [Account Access Request Evidence](evidence/Account-Access-Request/)
 
 
 
-Workflow documentation: \[01 - Account Access Request (Ticket Handling and Escalation)](scenarios/01-Password-Reset-Account-Access.md)
+Workflow documentation: [01 - Account Access Request (Ticket Handling and Escalation)](scenarios/01-Account-Access-Request.md)
+
+![Account access ticket overview](evidence/Account-Access-Request/01-Ticket-Overview.png)
+
+![Resolved account access ticket](evidence/Account-Access-Request/04-Ticket-Resolved.png)
+
 
 
 
@@ -125,11 +130,11 @@ No installation was performed because the lab does not include a real license in
 
 
 
-Evidence: \[Software Installation Request](evidence/Software-Installation-Request/)
+Evidence: [Software Installation Request](evidence/Software-Installation-Request/)
 
 
 
-Workflow documentation: \[02 - Software Installation Request](scenarios/02-Software-Installation-Request.md)
+Workflow documentation: [02 - Software Installation Request](scenarios/02-Software-Installation-Request.md)
 
 
 
@@ -173,7 +178,6 @@ Workflow documentation: \[02 - Software Installation Request](scenarios/02-Softw
 
 \- Windows 11
 
-\- PowerShell
 
 \- Markdown
 
@@ -243,18 +247,18 @@ osTicket-Ticket-Lifecycle-Lab/
 |-- documentation/
 |   +-- Lab-Environment.md
 |-- evidence/
-|   |-- Password-Reset-Account-Access/
-|   |   |-- 01 Ticket-Overview.png
-|   |   |-- 02 L1-Response.png
-|   |   |-- 03 L1-to-L2 Transfer - L2 Assignment - L2 Response.png
-|   |   |-- 04 Ticket-Resolved.png
+|   |-- Account-Access-Request/
+|   |   |-- 01-Ticket-Overview.png
+|   |   |-- 02-L1-Response.png
+|   |   |-- 03-L1-to-L2-Transfer-and-Response.png
+|   |   |-- 04-Ticket-Resolved.png
 |   |   +-- Evidence-Report.md
 |   +-- Software-Installation-Request/
 |       |-- 01-L1-Initial-Response.png
 |       |-- 02-L1-Internal-Note.png
 |       +-- Evidence-Report.md
 +-- scenarios/
-    |-- 01-Password-Reset-Account-Access.md
+    |-- 01-Account-Access-Request.md
     +-- 02-Software-Installation-Request.md
 ```
 
