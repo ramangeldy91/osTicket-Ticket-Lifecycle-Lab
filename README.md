@@ -1,8 +1,8 @@
-\# osTicket Ticket Lifecycle Lab
+# osTicket Ticket Lifecycle Lab
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -18,25 +18,25 @@ It includes two practical scenarios based on synthetic support requests, with do
 
 
 
-\## Objectives
+## Objectives
 
 
 
-\- Practice ticket creation and lifecycle management.
+- Practice ticket creation and lifecycle management.
 
-\- Handle user-facing replies and internal notes.
+- Handle user-facing replies and internal notes.
 
-\- Understand ticket priorities, Help Topics, and SLA assignment.
+- Understand ticket priorities, Help Topics, and SLA assignment.
 
-\- Demonstrate department transfers and manual agent reassignment.
+- Demonstrate department transfers and manual agent reassignment.
 
-\- Apply appropriate escalation and ticket resolution procedures.
+- Apply appropriate escalation and ticket resolution procedures.
 
-\- Document actions, outcomes, and operational limitations.
+- Document actions, outcomes, and operational limitations.
 
 
 
-\## Lab Environment
+## Lab Environment
 
 
 
@@ -55,15 +55,15 @@ See [Lab Environment](documentation/Lab-Environment.md) for configuration detail
 
 
 
-\## Practical Scenarios
+## Practical Scenarios
 
 
 
-\### 01 - Account Access Request (Ticket Handling and Escalation)
+### 01 - Account Access Request (Ticket Handling and Escalation)
 
 
 
-\*\*Scenario type:\*\* Account Access Incident - Ticket Handling Demonstration
+*\*Scenario type:\*\* Account Access Incident - Ticket Handling Demonstration
 
 
 
@@ -71,17 +71,17 @@ Demonstrated workflow:
 
 
 
-\- Ticket registration and prioritization.
+- Ticket registration and prioritization.
 
-\- Initial Level I response.
+- Initial Level I response.
 
-\- Transfer from Support to IT Support L2.
+- Transfer from Support to IT Support L2.
 
-\- Manual reassignment to Level II Support.
+- Manual reassignment to Level II Support.
 
-\- Level II follow-up response.
+- Level II follow-up response.
 
-\- Ticket resolution and final state validation.
+- Ticket resolution and final state validation.
 
 
 
@@ -102,11 +102,11 @@ Workflow documentation: [01 - Account Access Request (Ticket Handling and Escala
 
 
 
-\### 02 - Software Installation Request
+### 02 - Software Installation Request
 
 
 
-\*\*Scenario type:\*\* Service Request
+*\*Scenario type:\*\* Service Request
 
 
 
@@ -114,15 +114,15 @@ Demonstrated workflow:
 
 
 
-\- Software request registration.
+- Software request registration.
 
-\- Initial Level I response.
+- Initial Level I response.
 
-\- Internal assessment and documentation.
+- Internal assessment and documentation.
 
-\- Identification of outstanding manager approval and license verification.
+- Identification of outstanding manager approval and license verification.
 
-\- Retention of the ticket in Open status pending further verification.
+- Retention of the ticket in Open status pending further verification.
 
 
 
@@ -132,60 +132,62 @@ No installation was performed because the lab does not include a real license in
 
 Evidence: [Software Installation Request](evidence/Software-Installation-Request/)
 
+Evidence report: [Software Installation Request Evidence Report](evidence/Software-Installation-Request/Evidence-Report.md)
+
 
 
 Workflow documentation: [02 - Software Installation Request](scenarios/02-Software-Installation-Request.md)
 
 
 
-\## Skills Demonstrated
+## Skills Demonstrated
 
 
 
-\- Service Desk ticket management.
+- Service Desk ticket management.
 
-\- Incident and service request handling.
+- Incident and service request handling.
 
-\- Ticket prioritization and SLA awareness.
+- Ticket prioritization and SLA configuration awareness.
 
-\- Department transfer and manual agent reassignment.
+- Department transfer and manual agent reassignment.
 
-\- User communication and internal documentation.
+- User communication and internal documentation.
 
-\- Ticket status and lifecycle management.
+- Ticket status and lifecycle management.
 
-\- Escalation awareness and workflow documentation.
+- Escalation awareness and workflow documentation.
 
-\- Evidence collection and technical reporting.
+- Evidence collection and technical reporting.
 
-\- Software approval and licensing awareness.
-
-
-
-\## Tools and Technologies
+- Software approval and licensing awareness.
 
 
 
-\- osTicket 1.18.4
-
-\- XAMPP
-
-\- Apache
-
-\- MySQL
-
-\- PHP
-
-\- Windows 11
-
-
-\- Markdown
-
-\- Git and GitHub
+## Tools and Technologies
 
 
 
-\## Evidence and Validation
+- osTicket 1.18.4
+
+- XAMPP
+
+- Apache
+
+- MySQL
+
+- PHP
+
+- Windows 11
+
+
+- Markdown
+
+- Git and GitHub
+
+
+
+## Evidence and Validation
 
 
 
@@ -193,15 +195,15 @@ Each practical scenario includes screenshots and an Evidence Report documenting:
 
 
 
-\- Ticket details and relevant configuration.
+- Ticket details and relevant configuration.
 
-\- Actions actually performed.
+- Actions actually performed.
 
-\- Workflow outcome.
+- Workflow outcome.
 
-\- Final ticket state and validation.
+- Final ticket state and validation.
 
-\- Known environment limitations.
+- Known environment limitations.
 
 
 
@@ -209,7 +211,7 @@ All requester identities and ticket information are synthetic.
 
 
 
-\## Lab Limitations
+## Lab Limitations
 
 
 
@@ -217,21 +219,21 @@ This is a personal local lab, not a production Service Desk environment.
 
 
 
-\- One staff account is used to demonstrate both L1 and L2 activities.
+- One staff account is used to demonstrate both L1 and L2 activities.
 
-\- SMTP and external email delivery are not configured.
+- SMTP and external email delivery are not configured.
 
-\- Tickets were created through the staff panel. The Source field was set to Email, but no actual incoming email was received or processed.
+- Tickets were created through the staff panel. The Source field was set to Email, but no actual incoming email was received or processed.
 
-\- Department transfers and agent reassignment are performed manually.
+- Department transfers and agent reassignment are performed manually.
 
-\- No external identity provider integration is configured.
+- No external identity provider integration is configured.
 
-\- No real software license inventory or manager approval system is connected.
+- No real software license inventory or manager approval system is connected.
 
-\- No endpoint software deployment integration is available.
+- No endpoint software deployment integration is available.
 
-\- No actual password reset or identity verification was performed in the account access scenario.
+- No actual password reset or identity verification was performed in the account access scenario.
 
 
 
